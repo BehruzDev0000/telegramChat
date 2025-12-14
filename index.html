@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style type="text/tailwindcss"></style>
+</head>
+<body>
+    <div class="wrapper relative">
+        <ul class="list p-2 pr-[20px] relative h-[100%] flex flex-col justify-end pb-[90px] gap-[10px]">
+        
+        </ul>
+        <form class="message-form absolute bottom-[10px] w-full" autocomplete="off">
+            <div class="bg-white rounded-[25px] w-full">
+                <input type="text" class="message-input outline-none p-3 w-[83%] text-[18px]" name="message" id="" placeholder="Message">
+
+            </div>
+            <div class="absolute right-[10px] bottom-[10px] flex items-center  gap-[20px]">
+                <label>
+                <input type="file" class="hidden image-input">
+                <img src="./images/clipp.svg" alt="Clip icon" width="30" height="30">
+            </label>
+            <button type="submit">
+                <img src="./images/telegram.svg" alt="Telegram icon" width="30" height="30">
+            </button>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

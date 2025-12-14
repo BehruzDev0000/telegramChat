@@ -1,0 +1,27 @@
+body{
+   background-image: url("./../images/telegram.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+
+}
+.wrapper{
+    width: 600px;
+    border-left: 1px solid rgba(0, 128, 0, 0.659);
+    border-right: 1px solid rgba(0, 128, 0, 0.659);
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url("./../images/telegram.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.message-item::before{
+    content: "";
+    position: absolute;
+    border-top: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #0088cc;
+    border-right: 20px solid transparent;
+    bottom: 0;
+    right: -15px;
+}
