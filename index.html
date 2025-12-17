@@ -9,8 +9,8 @@
     <style type="text/tailwindcss"></style>
 </head>
 <body>
-    <div class="wrapper relative">
-        <ul class="list p-2 pr-[20px] relative h-[100%] flex flex-col justify-end pb-[90px] gap-[10px]">
+    <div class="wrapper relative h-[100vh]">
+        <ul class="list p-2 pr-[20px] relative h-[94vh] overflow-y-auto space-y-[10px] ">
         
         </ul>
         <form class="message-form absolute bottom-[10px] w-full" autocomplete="off">
@@ -23,6 +23,9 @@
                 <input type="file" class="hidden image-input">
                 <img src="./images/clipp.svg" alt="Clip icon" width="30" height="30">
             </label>
+            <button type="button" class="cursor-pointer microphone-icon">
+                <img src="./images/microphone.svg" alt="Microphone icon" width="30" height="30">
+            </button>
             <button type="submit">
                 <img src="./images/telegram.svg" alt="Telegram icon" width="30" height="30">
             </button>
