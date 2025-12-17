@@ -93,7 +93,7 @@ renderMessage(messagesList,elList)
 })
 //Message form end
 
-//MIcrophone voice recording start
+//Microphone voice recording start
 let mediaRecorder;
 let stream;
 let isRecording = false;
